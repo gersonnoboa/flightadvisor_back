@@ -9,13 +9,18 @@
     "test": "test"
   },
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fb": "^2.0.0",
+    "mysql": "^2.15.0"
   },
   "devDependencies": {
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC"
